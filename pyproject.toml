@@ -1,0 +1,22 @@
+[project]
+name = "multimodal-clip"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "apostolidoum", email = "apostolidou9mar@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "clip",
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+    "pillow>=13.0.0",
+    "pygments>=2.21.0",
+    "torch>=2.15.0",
+]
+
+[tool.uv.sources]
+clip = { git = "https://github.com/openai/CLIP.git" }
+
